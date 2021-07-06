@@ -18,7 +18,7 @@ import java.net.MalformedURLException;
 public class RunTest {
     AndroidDriver<MobileElement> androiddriver;
     WebDriverWait wait;
-
+//Test
     @BeforeMethod()//BeforeMethod ile her test case i koşulmadan önce çalışmaktadır.
     public void setUp() throws MalformedURLException {
         System.out.println("Before içerisinde");
